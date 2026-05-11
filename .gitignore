@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Logs
+**/*.log
+
+# generation outputs
+generation/*data/
+
+# analysis outputs
+data-self-judge/
+data-external-judge/
+
+# Paper artifacts
+paper-out/
